@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(209, 37, 37, 0.911);
+    clip-path: circle(50% at bottom right);
+}
+
+header {
+    margin: 20px 30px 10px;
+    padding: 15px 40px 0 10px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 10vh;
+}
+
+ul a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+ul a:hover {
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 13px;
+    transition: 0.3s;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 100px 0 2px 40px;
+    padding: 20px 0 2px 20px;
+    max-width: 45%;
+}
+
+h1 {
+    color: #fff;
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: rgba(209, 37, 37, 0.911);
+    font-family:'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 1px;
+}
+
+button {
+    width: 180px;
+    height: 25px;
+    padding: 10px 10px 30px ;
+    border-radius: 20px;
+    border: 0;
+    background-color:rgba(209, 37, 37, 0.911);
+    color: #fff;
+    margin-top: 30px;
+    font-family:'Roboto', sans-serif;
+    font-size: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+button:hover {
+    background-color:rgba(73, 10, 10, 0.911);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.icones {
+    color:white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+
+.container {
+    position: absolute;
+    right: 0;
+    bottom: -8px;
+}
+
+.container img {
+    width: 150px;
+}
+
+.container .img1 {
+    transform: rotate(-15deg);
+}
+
+.container .img2 {
+    transform: rotate(5deg);
+}
+
+.container .img3 {
+    transform: rotate(15deg);
+}
+
+.container .img4 {
+    transform: rotate(-15deg);
+}
